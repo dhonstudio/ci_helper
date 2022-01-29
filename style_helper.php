@@ -4,13 +4,16 @@ $ci = get_instance();
 
 $ci->css = [
     'bootstrap5'    => '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />',
+    'fontawesome4'  => '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">',
     'fontawesome5'  => '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />',
     'sb-admin'      => '<link href="'.base_url('assets/vendor/sb-admin/').'css/styles.css" rel="stylesheet" />',
     'sb-admin-2'    => '<link href="'.base_url('assets/vendor/sb-admin-2/').'css/sb-admin-2.min.css" rel="stylesheet">',
+    'w3css'         => '<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">',
 ];
 
 $ci->font = [
-    'google-Nunito' => '<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">'
+    'google-Nunito'     => '<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">',
+    'google-Raleway'    => '<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">',
 ];
 
 $ci->js = [
