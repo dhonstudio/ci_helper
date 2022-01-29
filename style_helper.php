@@ -3,6 +3,7 @@
 $ci = get_instance();
 
 $ci->css = [
+    'bootstrap5'    => '<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>',
     'fontawesome5'  => '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />',
     'sb-admin'      => '<link href="'.base_url('assets/vendor/sb-admin/').'css/styles.css" rel="stylesheet" />',
     'sb-admin-2'    => '<link href="'.base_url('assets/vendor/sb-admin-2/').'css/sb-admin-2.min.css" rel="stylesheet">',
