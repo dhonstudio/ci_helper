@@ -4,10 +4,12 @@ $ci = get_instance();
 
 $ci->css = [
     'bootstrap5'        => '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />',
+    'bootstrap-icons'   => '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.1/font/bootstrap-icons.css" integrity="sha512-V/16/YNWHyRzk7KwjMaRnwztuPcKdZhOA/DQjTmfzOdQ86B/ajDXFL3alrxyr0fBYROOk4PU26Bm7nmHUB8nEg==" crossorigin="anonymous" referrerpolicy="no-referrer" />',
     'fontawesome4'      => '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">',
     'fontawesome5'      => '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />',
     'sb-admin'          => '<link href="https://dhonstudio.com/assets/vendor/sb-admin/css/styles.css" rel="stylesheet" />',
     'sb-admin-2'        => '<link href="https://dhonstudio.com/assets/vendor/sb-admin-2/css/sb-admin-2.min.css" rel="stylesheet">',
+    'sb-landingpage'    => '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-landing-page/5.0.9/css/landing-page.min.css" integrity="sha512-VQ39cuBEpcyaHlg16L9J8U8sZt6Tikc6heQzx5nh1dqe6hHGjCHrLMg+EyAkHRxr6qj9FN1eAFhpNSAda6qNqg==" crossorigin="anonymous" referrerpolicy="no-referrer" />',
     'w3css'             => '<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">',
 ];
 
