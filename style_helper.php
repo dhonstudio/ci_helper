@@ -3,6 +3,7 @@
 $ci = get_instance();
 
 $ci->css = [
+    'bootstrap4'        => '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">',
     'bootstrap5'        => '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">',
     'bootstrap-icons'   => '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.1/font/bootstrap-icons.css" integrity="sha512-V/16/YNWHyRzk7KwjMaRnwztuPcKdZhOA/DQjTmfzOdQ86B/ajDXFL3alrxyr0fBYROOk4PU26Bm7nmHUB8nEg==" crossorigin="anonymous" referrerpolicy="no-referrer" />',
     'datatables'        => '<link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />',
@@ -17,9 +18,11 @@ $ci->css = [
 ];
 
 $ci->font = [
-    'google-Lato'       => '<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">',
-    'google-Nunito'     => '<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">',
-    'google-Raleway'    => '<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">',
+    'google-ElsieSwashCaps' => '<link href="https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900" rel="stylesheet">',
+    'google-Lato'           => '<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">',
+    'google-Nunito'         => '<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">',
+    'google-Raleway'        => '<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">',
+    'google-SourceSansPro'  => '<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">',
 ];
 
 $ci->js = [
